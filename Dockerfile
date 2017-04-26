@@ -6,7 +6,7 @@ MAINTAINER Guillaume Salva <guillaume@holbertonschool.com>
 
 RUN curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
 RUN apt-get install -y nodejs
-RUN apt-get install -y npm
+
 RUN npm install semistandard --global
 
 
