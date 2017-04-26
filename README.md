@@ -1,3 +1,3 @@
-# ubuntu-1404-nodejs10
+# ubuntu-1404-nodejs6
 
-Docker container for NodeJS 0.10 development at Holberton School
+Docker container for NodeJS 6 development at Holberton School
