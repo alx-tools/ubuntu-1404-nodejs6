@@ -1,4 +1,4 @@
-ontainer for developing in NodeJS 0.10 at Holberton School
+# Container for developing in NodeJS 0.10 at Holberton School
 
 FROM holbertonschool/base-ubuntu-1404
 MAINTAINER Guillaume Salva <guillaume@holbertonschool.com>
