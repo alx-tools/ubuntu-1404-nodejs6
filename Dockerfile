@@ -3,4 +3,10 @@
 FROM holbertonschool/base-ubuntu-1404
 MAINTAINER Guillaume Salva <guillaume@holbertonschool.com>
 
-RUN apt-get install -y nodejs=0.10.25~dfsg2-2ubuntu1
+
+RUN curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
+RUN apt-get install -y nodejs=6.10.2-1nodesource1~trusty1
+RUN apt-get install -y npm=1.3.10~dfsg-1
+RUN npm install semistandard --global
+
+
