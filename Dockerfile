@@ -12,6 +12,7 @@ RUN apt-get install -y nodejs
 
 RUN npm install semistandard --global
 RUN npm install request --global
+RUN npm install base-64 --global
 
 RUN export NODE_PATH=/usr/lib/node_modules
 
