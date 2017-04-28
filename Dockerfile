@@ -11,6 +11,9 @@ RUN curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
 RUN apt-get install -y nodejs
 
 RUN npm install semistandard --global
+RUN npm install request --global
+
+RUN export NODE_PATH=/usr/lib/node_modules
 
 ADD run.sh /tmp/run.sh
 RUN chmod u+x /tmp/run.sh
